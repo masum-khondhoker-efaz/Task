@@ -1,5 +1,5 @@
 # Project Documentation
-
+## Postman documentation - https://documenter.getpostman.com/view/36263256/2sAYBYgqqF
 ## Table of Contents
 
 1. [Payment Processing with Cron Jobs](#payment-processing-with-cron-jobs)
@@ -100,12 +100,3 @@ This task focuses on ensuring type safety when handling nested modules and video
    - TypeScript ensures that the data passed to the service is of the correct type.
 
 ---
-
-### Summary
-
-In summary, these tasks involve:
-1. **Payment Processing with Cron Jobs**: Automating payment processing for users with expired plans, updating their account status based on payment success or failure.
-2. **Course Update with Nested Modules and Videos**: Enabling partial updates to courses, supporting the addition or modification of modules and videos.
-3. **Dynamic Course Schema with TypeScript**: Ensuring type safety when handling nested modules and videos, and using TypeScript for better data validation and error prevention.
-
-Each task emphasizes modular design, efficient handling of nested data structures, and robust error handling to ensure the system is maintainable and scalable.
