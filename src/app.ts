@@ -9,7 +9,13 @@ const app: Application = express();
 import {StatusCodes} from "http-status-codes";
 app.use(cors());
 app.use(cookieParser());
-
+app.get("/", (req: Request, res: Response) => {
+  res.send({
+    success:true,
+    statusCode: StatusCodes.OK,
+    message: "Welcome to tasks",
+  });
+});
 //parser
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
